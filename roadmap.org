@@ -1,0 +1,36 @@
+* DONE Integrate chipmunk
+* DONE Music
+* DONE Fix resources hierarchy (not everything dumped in project root)
+* DONE Use Methodtables
+* DONE Create bullets
+* DONE Dummy enemies
+* DONE Flexible Guns
+* DONE Rooms larger than screen (camera)
+* BLOCKED Sound (Implemented, need to find real sounds)
+* BLOCKED Actual art (Have to find an artist)
+* TODO GUNS
+** Machine Gun (standard)
+Movement implemented now.
+** Flamethrower
+A force rather than an impulse, constant power, overheats?
+** Mines
+Set a mine down, massive blast after about 2 seconds.
+** Lasers?
+No motion imparted by a shot, but if the shot hits you it imparts motion; can be ricocheted
+to hit yourself and move you, or power things.
+** Chainsaw
+Moves quickly, tears through enemies, actually controls "normally"
+** Bomb?
+Big strong blast first, then you can bounce it back on yourself for a second.
+** Hookshot
+* TODO AI
+* TODO UI (Write my own or find an existing one.)
+  Maybe look into [https://github.com/vurtun/gui]
+* TODO Menus (Requires UI)
+* TODO Physfs?
+* TODO Cutscenes?
+* TODO Story mode?
+* TODO OpenGL rewrite? (shaders and prettiness)
+  Aside from the fact that I'd be using OpenGL it shouldn't be incredibly painful.
+  At this point behavior and drawing are fairly decoupled already; chipmunks coords
+  map better to OpenGL anyway;

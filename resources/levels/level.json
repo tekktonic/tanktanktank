@@ -1,0 +1,11 @@
+{
+    "background" : "bg.png",
+    "update" : "stub",
+    "width" : 2048,
+    "height" : 1536,
+    "objects" : [
+	    {"object" : "player.json", "time": 0, "spawn_hints" : {"value" : "stub"}},
+        {"object" : "enemy.json", "time": 180, "spawn_hints" : {"value" : "stub"}}
+
+    ]
+}

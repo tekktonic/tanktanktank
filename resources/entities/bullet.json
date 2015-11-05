@@ -1,0 +1,7 @@
+{
+    "texture" : "player.png",
+    "type" : "bullet",
+    "constructor" : "bullet",
+    "update" : "bullet",
+    "obj_hints" : {"radius" : 8.0, "mass" : 0.1}
+}

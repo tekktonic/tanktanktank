@@ -1,0 +1,8 @@
+{
+    "texture": "player.png",
+    "constructor" : "player",
+    "update": "player",
+    "type": "player",
+    "react": "die",
+    "obj_hints": {"speed": 10, "position": {"x": 512, "y": 384}, "radius": 24.0, "type_collide": "enemy", "gun" : "machine gun", "bullet" : "bullet.json"}
+}

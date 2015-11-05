@@ -1,0 +1,7 @@
+{
+    "texture" : "dinosphere.png",
+    "type" : "enemy",
+    "constructor" : "enemy",
+
+    "obj_hints" : {"radius" : 24.0}
+}
